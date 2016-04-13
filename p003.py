@@ -40,6 +40,8 @@ def largestPrime(n):
     Returns number
 
     Start by going backwards from largest factor '''
+    # Faster version: 61s
+    # Not actually faster
     largest = 0
     for i in range(1, int(math.sqrt(n)/2)):
         if n%i == 0:
@@ -49,7 +51,7 @@ def largestPrime(n):
             #     largest = i
     return largest
 
-    # Slow method
+    # Slow method: 32s
     # l = 1
     # for i in range(1, n/2+1, 2):
     #     if n%i == 0 and isPrime(i):
