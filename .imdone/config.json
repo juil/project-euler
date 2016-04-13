@@ -26,6 +26,10 @@
       "hidden": false
     },
     {
+      "name": "FIXME",
+      "hidden": false
+    },
+    {
       "name": "DONE",
       "hidden": false
     }
